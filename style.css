@@ -184,6 +184,54 @@ header{
     font-weight: bold;
 }
 
+/*------PRODUCTS-------*/
+.products-container{
+    margin-top: 7.4vh;
+    margin-bottom: 9.26vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.products-title{
+    font-family: 'Gilroy';
+    font-size: 2.96vh;
+    line-height: 3.33vh;
+    color: #151716;
+}
+
+.products{
+    display: flex;
+    margin-top: 2.59vh;
+    align-items: end;
+    justify-content: space-between;
+}
+
+.product{
+    position: relative;
+}
+
+.product > img{
+    max-width: 14.95vw;
+}
+
+.product-name{
+    color: white;
+    font-weight: 700;
+    font-family: 'Gilroy';
+    position: absolute;
+    font-size: 1.85vh;
+    line-height: 2.3vh;
+    bottom: 2vh;
+    left: 1.25vw;
+}
+
+
+/*------fonts-------*/
+@font-face {
+    font-family: 'Gilroy';
+    src: url(content/font/gilroy-regular.ttf);
+}
+
 /*------colors-------*/
 .light-gray-1{
     color: #999999;
@@ -202,7 +250,7 @@ header{
 }
 
 .light-gray-back{
-    color: #F6F6F6;
+    background-color: #F6F6F6;
 }
 
 .gray-back{
