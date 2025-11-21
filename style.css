@@ -134,6 +134,54 @@ header{
 .description-intro{
     display: flex;
     justify-content: space-between;
+    flex-direction: row;
+}
+
+.description-intro > div{
+    margin-top: 7.59vh;
+    margin-bottom: 7.59vh;
+}
+
+.intro-orange{
+    font-family: 'PT Sans';
+    font-size: 1.6vh;
+    line-height: 2.5vh;
+    max-width: 30.73vw;
+}
+
+.intro-feature-content-title{
+    font-weight: bold;
+    color: black!important;
+    font-size: 1.48vh;
+}
+
+.intro-feature{
+    display: flex;
+    justify-content: start;
+    max-width: 20.5vw;
+}
+
+.intro-feature-content{
+    font-family: 'PT Sans';
+    font-size: 1.38vh;
+    line-height: 1.85vh;
+    color: #7B7B7B;
+    margin-left: 1.48vw;
+    max-width: 13.07vw;
+}
+
+.intro-orange-content{
+    display: flex;
+    align-items: center;
+}
+
+.intro-first-letter{
+    line-height: 3.98vh;
+    font-size: 5vh;
+}
+
+.intro-first-title{
+    font-weight: bold;
 }
 
 /*------colors-------*/
