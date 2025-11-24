@@ -76,6 +76,24 @@ body{
     margin-left: 0.93vh;
 }
 
+.price-button {
+    font-family: 'PT Sans';
+    background-color: #FF7028;
+    color: white;
+}
+
+.price-button-big {
+    font-size: 2.22vh;
+    line-height: 2.22vh;
+    padding: 1.38vh;
+}
+
+.price-button-small{
+    font-size: 1.48vh;
+    line-height: 1.85vh;
+    padding: 0.74vh;
+}
+
 .description-right{
     position: relative;
 }
@@ -226,38 +244,47 @@ header{
 }
 
 /*------COLLECTIONS-------*/
-.collections{
+.collections {
     display: flex;
 }
 
-.collections > *, .collections-img{
-    width: 50vw;
+.collections > * {
+    margin-left: 2vw;
 }
 
 .collections-img > img{
-    min-height: 61.57vh;
+    display: block;
+
+    margin: 0 auto;
+    max-height: 61.57vh;
 }
 
-.collections-img{
+.collections-img {
     position: relative;
 }
 
-.collections-content{
-    margin-left: 18.75vh;
+.collections-button {
+    top: 10.55vh;
+    left: 4.11vw;
+    position: absolute;
+}
+
+.collections-content {
+    margin-left: 18.75vw;
     margin-right: 3.65vw;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
-.collections-top > p{
+.collections-top > p {
     color: #BEBEBE;
     font-family: 'PT Sans';
     font-size: 1.6vh;
     line-height: 2.59vh;
 }
 
-.collections-title{
+.collections-title {
     margin-top: 6.2vh;
     font-family: 'Gilroy'!important;
     font-weight: 400!important;
@@ -266,22 +293,23 @@ header{
     color: white!important;
 }
 
-.collections-all{
+.collections-all {
     margin-top: 2.4vh;
     margin-bottom: 3.5vh;
 }
 
-.collections-all > span{
+.collections-all > span {
     font-family: 'PT Sans';
     font-size: 1.48vh;
     line-height: 2.22vh;
     color: #BEBEBE;
     margin-left: 0.78vw;
+ 
 }
 
-.collections-img-title{
+.collections-img-title {
     font-family: 'PT Sans';
-    font-weight: 500;
+    font-weight: 700;
     font-size: 1.6vh;
     line-height: 3.2vh;
     color: white;
@@ -289,23 +317,93 @@ header{
     position: absolute;
 }
 
-.collections-button{
-    font-family: 'PT Sans';
-    font-size: 1.6vh;
-    line-height: 2.22vh;
-    padding: 1.38vh;
-    background-color: #FF7028;
-    color: white;
-    position: absolute;
-    top: 2.96vh;
-    right: 2.96vh;
+.collections-img-title {
+    top: 7.04vh;
+    left: 4.11vw;
 }
+
+.collections-button {
+  
+    position: absolute;
+}
+
+/*------GOODS-------*/
+.goods-title{
+    font-family: 'Gilroy';
+    font-weight: 400;
+    font-size: 2.96vh;
+    line-height: 3.33vh;
+    margin-top: 7.4vh;
+    margin-bottom: 1.85vh;
+}
+
+.goods-items{
+    display: flex;
+}
+
+.goods-items > *{
+    border: 1px solid #ECECEC;
+}
+
+.good{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.good-img > img{
+    max-height: 17.4vh;
+    margin: 1.85vh;
+}
+
+.good-img > span{
+    margin: 1.1vh;
+}
+
+.good-img{
+    display: flex;
+    align-items: start;
+}
+
+.good-description{
+    font-family: 'PT Sans';
+    font-weight: 400;
+    font-size: 1.48vh;
+    line-height: 2vh;
+    margin: 1.85vh;
+    max-width: 13.54vw;
+}
+
+.good-price{
+    margin-left: 1.85vh;
+    margin-bottom: 2.2vh;
+    font-family: 'PT Sans';
+    font-size: 1.48vh;
+    line-height: 1.48vh;
+    color: #A5A5A5;
+}
+
+.good-price-discount{
+    font-size: 1.48vh;
+    line-height: 1.48vh;
+    color: #A5A5A5;
+    text-decoration: line-through;
+}
+
+.good-price-normal{
+    color: black!important;
+    font-size: 1.85vh!important;
+    line-height: 1.85vh!important;
+}
+
+
 
 /*------fonts-------*/
 @font-face {
     font-family: 'Gilroy';
     src: url(content/font/gilroy-regular.ttf);
 }
+
 
 /*------colors-------*/
 .light-gray-1{
