@@ -453,16 +453,18 @@ header{
     color: #7B7B7B;
 }
 
-/*------ORANGE BOTTOM-------*/
-.orange-bottom{
+/* -------------------- ORANGE BOTTOM -------------- */
+
+.orange-bottom {
     position: relative;
 }
 
-.orange-bottom-img{
+.orange-bottom-img {
     width: 100vw;
+    display: block;
 }
 
-.orange-bottom-text{
+.orange-bottom-text {
     position: absolute;
     text-align: center;
     color: white;
@@ -471,13 +473,90 @@ header{
     width: 63vw;
     background-color: #F6761A;
     font-family: 'Gilroy';
-    margin-top: 3.8vh;
-    margin-bottom: 4.35vh;
+    padding-top: 3.8vh;
+    padding-bottom: 4.35vh;
     font-size: 2.59vh;
     line-height: 3.33vh;
     font-weight: 400;
 }
 
+/* ----------------- FOOTER ---------------------- */
+
+.orange-footer {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+
+}
+
+.orange-footer-wrapper {
+    padding-top: 5.55vh;
+    padding-bottom: 2.22vh;
+}
+
+.orange-menu-title {
+    color: white;
+    font-weight: 700;
+    font-family: 'Gilroy';
+    font-size: 1.48vh;
+    line-height: 1.76vh;
+}
+
+.orange-upper-margin {
+    margin-top: 1.85vh;
+}
+
+.orange-bottom-margin {
+    margin-bottom: 1.85vh;
+}
+
+.orange-footer-menu-item {
+    color: #BEBEBE;
+    font-family: 'PT Sans';
+    font-size: 1.6vh;
+    line-height: 2.59vh;
+}
+
+.orange-footer-menu-item > span {
+    margin-left: 0.78vw;
+}
+
+
+.orange-copyright {
+    display: flex;
+    justify-content: end;
+    color: #747474;
+    font-size: 1.1vh;
+    line-height: 1.3vh;
+    font-family: 'Roboto';
+    align-items: center;
+
+    margin-top: 5.18vh;
+}
+
+.orange-copyright-developed-by {
+    margin-left: 1.25vw;
+    border: 1px solid #494949;
+    padding-top: 0.74vh;
+    padding-bottom: 0.74vh;
+    padding-left: 0.625vw;
+    padding-right: 0.625vw;
+}
+
+/* ------------------- BOTTOM -------------------- */
+
+.bottom-line {
+    border: 1px solid #484848;
+}
+
+.arrow-up {
+    display: flex;
+    justify-content: center;
+}
+.arrow-up > img {
+    margin-top: 3.98vh;
+    margin-bottom: 3.98vh;
+}
 
 
 /*------fonts-------*/
@@ -530,4 +609,8 @@ header{
 
 .dark-gray-back{
     background-color: #060707D9;
+}
+
+.dark-gray-back-2{
+    background-color: #202122;
 }
